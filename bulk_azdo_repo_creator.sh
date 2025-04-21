@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # === CONFIGURATION ===
-AZURE_ORG="vigneshr0540"
-AZURE_PROJECT_ID="115bad1c-bcc7-4a15-a937-e9afc4ef8313"  # <- Replace with actual Project ID
-PAT="IOBtf49siOnaMs7gIUlrm1sO9Sz1H7NYaigRijFwJG8tB5Bbdh8rJQQJ99BDACAAAAAbL04UAAASAZDO3onr"                # <- Replace with actual PAT
-BASE_DIR="C:\Users\vignesh.r\Downloads\psn\repos"  # Change path if needed
+AZURE_ORG="your-org-name"
+AZURE_PROJECT_ID="your-project-id"
+PAT="your-pat-token"
+BASE_DIR="/absolute/path/to/your/terraform-folders"
 
 # === Validate Inputs ===
 if [[ -z "$AZURE_ORG" || -z "$AZURE_PROJECT_ID" || -z "$PAT" || "$PAT" == "your-pat-token-here" ]]; then
